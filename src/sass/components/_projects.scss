@@ -1,0 +1,17 @@
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    &__container{
+        background-color: blue;
+        width: 25rem;
+        height: 25rem;
+
+        &-img{
+            width: 25rem;
+            height: 25rem;
+            
+        }
+    }
+}

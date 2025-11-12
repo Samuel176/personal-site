@@ -32,6 +32,21 @@ body {
   border-radius: 4rem;
 }
 
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.projects__container {
+  background-color: blue;
+  width: 25rem;
+  height: 25rem;
+}
+.projects__container-img {
+  width: 25rem;
+  height: 25rem;
+}
+
 .hero {
   text-align: center;
   height: 80vh;
