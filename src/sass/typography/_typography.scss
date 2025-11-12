@@ -1,0 +1,10 @@
+@use"../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.heading-primary{
+    font-size: 5rem;
+}
+
+.heading-secondary{
+    font-size: 3rem;
+}
