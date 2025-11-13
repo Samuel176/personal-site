@@ -3,6 +3,11 @@
 
 .heading-primary{
     font-size: 5rem;
+    background-image: linear-gradient(to right, $color-dark-blue, $color-light-blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 2px;
 }
 
 .heading-secondary{
