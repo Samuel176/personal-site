@@ -1,5 +1,5 @@
 .bg-video{
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100%;
@@ -12,7 +12,9 @@
         object-fit: cover;
     }
 }
-
+.about-section{
+    position: relative;
+}
 .about-content{
     position: relative;
     width: 100%;
@@ -24,8 +26,9 @@
         justify-content: space-evenly;
 
         &-box{
-            width: 150px;
-            height: 150px;
+            width: 40%;
+            height: 50rem;
+            margin-bottom: 10rem;
             background-color: red;
             z-index: 5;
         }

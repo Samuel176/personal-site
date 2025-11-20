@@ -13,7 +13,7 @@ function App() {
   const [project, setProject] = useState();
 
   return (
-    <div>
+    <div className='page'>
       <Hero />
       <div className="projects-section">
         <div className="projects">
