@@ -5,6 +5,7 @@ import './App.css'
 import Hero from './componants/Hero'
 import Projects from './componants/Projects'
 import Footer from './componants/Footer';
+import About from './componants/About';
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
         
         </div>
       </div>
+      <About />
       <Footer />
       
       
