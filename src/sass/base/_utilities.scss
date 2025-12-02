@@ -1,0 +1,22 @@
+@use"../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+.margin-m{
+    margin: 3rem 0;
+}
+
+.margin-l{
+    margin: 6rem 0;
+}
+
+.small-container{
+    margin: 2rem 5rem;
+}
+
+.padding-l{
+    padding: 6rem 0;
+}
+
+.padding-m{
+    padding: 3rem 0;
+}
