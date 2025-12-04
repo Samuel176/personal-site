@@ -27,8 +27,12 @@
     &__container{
         display: flex;
         justify-content: space-evenly;
+          
 
         &-box{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
             width: 40%;
             height: 50rem;
             border-radius: 5px;

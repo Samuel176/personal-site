@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import projectInfo from "/src/assets/projects.json";
+
 import './App.css'
 import Hero from './componants/Hero'
 import Projects from './componants/Projects'
@@ -19,16 +20,16 @@ function App() {
         <div className="projects">
           {projectInfo.map((p) => (
           <Projects
-            key={p.id}
-            img={p.img}
-            text={p.text}
-            title={p.title}
+            key= {p.id}
+            img= {p.img}
+            text= {p.text}
+            title= {p.title}
           />
         ))}
         
         </div>
       </div>
-      <About />
+        <About />
       <Footer />
       
       

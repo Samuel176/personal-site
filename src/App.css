@@ -79,6 +79,9 @@ body {
   justify-content: space-evenly;
 }
 .about-content__container-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 40%;
   height: 50rem;
   border-radius: 5px;
@@ -127,6 +130,7 @@ body {
 .image-text-container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   padding: 1.5rem;
 }
 .image-text-container__image {

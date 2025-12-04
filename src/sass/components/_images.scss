@@ -4,6 +4,7 @@
 .image-text-container{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     padding: 1.5rem;
 
     &__image{

@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "title": "Pillar Of the Community",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut rem. Rerum eligendi",
+        "img": "img/meOnTrain.jpeg"
+    },
+
+    {
+        "id": 2,
+        "title": "Pillar Of the Community",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut rem. Rerum eligendi",
+        "img": "img/meOnTrain.jpeg"
+    }
+]
