@@ -1,3 +1,7 @@
+@use"../abstracts/variables" as *;
+@use "../abstracts/mixins" as *;
+
+
 .bg-video{
     position: absolute;
     top: 0;
@@ -19,7 +23,6 @@
     position: relative;
     width: 100%;
     text-align: center;
-    
 
     &__container{
         display: flex;
@@ -28,8 +31,9 @@
         &-box{
             width: 40%;
             height: 50rem;
+            border-radius: 5px;
             margin-bottom: 10rem;
-            background-color: red;
+            background-color: $color-off-white;
             z-index: 5;
 
         }

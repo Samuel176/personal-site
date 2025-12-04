@@ -3,13 +3,19 @@
 
 .image-text-container{
     display: flex;
+    align-items: center;
+    padding: 1.5rem;
 
     &__image{
-    
-        width: 30rem;
-        height: 30rem;
-        border-radius: 10px;
+        width: 15rem;
+        height: 15rem;
 
+        & > img{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            object-position: 0% 0%;
+        }
     }
 
    

@@ -7,7 +7,13 @@ function About(props){
                     <div className="about-content__container">
                         <div className="about-content__container-box">
                             <div className="image-text-container">
-                                <img className="image-text-container__image" src="img/meOnTrain.jpeg" alt="" />
+                                <div className="image-text-container__image">
+                                    <div className="image-text-container__image">
+                                        <img className="" src="img/meOnTrain.jpeg" alt="" />
+                                    </div>
+                                    
+                                </div>
+                                
                                 <div className="image-text-container__text">
                                     <h3 className="heading-tertiary">Pillar Of the Community</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut rem. Rerum eligendi</p>

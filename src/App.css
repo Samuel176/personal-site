@@ -81,8 +81,9 @@ body {
 .about-content__container-box {
   width: 40%;
   height: 50rem;
+  border-radius: 5px;
   margin-bottom: 10rem;
-  background-color: red;
+  background-color: #f7f7f7;
   z-index: 5;
 }
 
@@ -125,11 +126,18 @@ body {
 
 .image-text-container {
   display: flex;
+  align-items: center;
+  padding: 1.5rem;
 }
 .image-text-container__image {
-  width: 30rem;
-  height: 30rem;
-  border-radius: 10px;
+  width: 15rem;
+  height: 15rem;
+}
+.image-text-container__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  object-position: 0% 0%;
 }
 
 .hero {
