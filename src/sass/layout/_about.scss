@@ -29,16 +29,19 @@
         justify-content: space-evenly;
           
 
-        &-box{
+        &-box,
+        &-box-right{
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            width: 40%;
             height: 50rem;
             border-radius: 5px;
             margin-bottom: 10rem;
-            background-color: $color-off-white;
             z-index: 5;
+
+            &-right > .image-text-container{
+                flex-direction: row-reverse;
+            }
 
         }
     }

@@ -78,16 +78,17 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
-.about-content__container-box {
+.about-content__container-box, .about-content__container-box-right {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 40%;
   height: 50rem;
   border-radius: 5px;
   margin-bottom: 10rem;
-  background-color: #f7f7f7;
   z-index: 5;
+}
+.about-content__container-box-right > .image-text-container, .about-content__container-box-right-right > .image-text-container {
+  flex-direction: row-reverse;
 }
 
 .btn {
@@ -132,6 +133,8 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 1.5rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
 }
 .image-text-container__image {
   width: 15rem;
@@ -143,6 +146,9 @@ body {
   object-fit: fill;
   object-position: 0% 0%;
 }
+.image-text-container__text {
+  padding: 2rem;
+}
 
 .hero {
   text-align: center;
@@ -150,6 +156,10 @@ body {
 .hero__container {
   padding-top: 10rem;
 }
+p {
+  font-size: 1.25rem;
+}
+
 .heading-primary {
   font-size: 5rem;
   background-image: linear-gradient(to right, #1d3557, #457b9d);
@@ -161,6 +171,10 @@ body {
 
 .heading-secondary {
   font-size: 3rem;
+}
+
+.heading-tertiary {
+  font-size: 2.5rem;
 }
 
 /*# sourceMappingURL=App.css.map */

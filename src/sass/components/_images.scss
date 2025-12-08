@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: space-around;
     padding: 1.5rem;
+    background-color: $color-off-white;
+    border-radius: 10px;
 
     &__image{
         width: 15rem;
@@ -17,7 +19,11 @@
             object-fit: fill;
             object-position: 0% 0%;
         }
+
     }
 
+    &__text{
+        padding: 2rem;
+    }
    
 }

@@ -11,5 +11,17 @@
         "title": "Pillar Of the Community",
         "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut rem. Rerum eligendi",
         "img": "img/meOnTrain.jpeg"
+    },
+    {
+        "id": 3,
+        "title": "Pillar Of the Community",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut rem. Rerum eligendi",
+        "img": "img/meOnTrain.jpeg"
+    },
+    {
+        "id": 4,
+        "title": "Pillar Of the Community",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ut rem. Rerum eligendi",
+        "img": "img/meOnTrain.jpeg"
     }
 ]
