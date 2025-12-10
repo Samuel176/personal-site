@@ -22,6 +22,7 @@ function App() {
           <Projects
             key= {p.id}
             img= {p.img}
+            gif= {p.gif}
             text= {p.text}
             title= {p.title}
           />

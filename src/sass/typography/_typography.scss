@@ -1,6 +1,9 @@
 @use"../abstracts/variables" as *;
 @use "../abstracts/mixins" as *;
 
+*{
+    font-family: "TASA Orbiter", sans-serif;
+}
 
 p{
     font-size: 1.25rem;

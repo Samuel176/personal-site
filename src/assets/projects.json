@@ -3,18 +3,22 @@
     "id": 1,
     "title": "Naughton Stuidos",
     "text": "Wordpress site for carpenter",
-    "img": "/img/naughton.png"
+    "img": "/img/naughton.png",
+    "gif": "/img/naughton.gif"
+    
   },
   {
     "id": 2,
     "title": "Naughton Stuidos",
     "text": "Wordpress site for carpenter",
-    "img": "/img/naughton.png"
+    "img": "/img/naughton.png",
+    "gif": "/img/naughton.gif"
   },
   {
     "id": 3,
     "title": "Naughton Stuidos",
     "text": "Wordpress site for carpenter",
-    "img": "/img/naughton.png"
+    "img": "/img/naughton.png",
+    "gif": "/img/naughton.gif"
   }
 ]
