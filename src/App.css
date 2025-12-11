@@ -57,6 +57,7 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0.15;
+  clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
   overflow: hidden;
 }
 .bg-video__content {
@@ -73,10 +74,12 @@ body {
   position: relative;
   width: 100%;
   text-align: center;
+  margin-bottom: 5rem;
 }
 .about-content__container {
   display: flex;
   justify-content: space-evenly;
+  margin: 0 5rem;
 }
 .about-content__container-box, .about-content__container-box-right {
   display: flex;
@@ -89,6 +92,25 @@ body {
 }
 .about-content__container-box-right > .image-text-container, .about-content__container-box-right-right > .image-text-container {
   flex-direction: row-reverse;
+}
+@media (max-width: 1480px) {
+  .about-content__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .about-content__container-box, .about-content__container-box-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50rem;
+    border-radius: 5px;
+    margin-bottom: 10rem;
+    z-index: 5;
+  }
+  .about-content__container-box-right > .image-text-container, .about-content__container-box-right-right > .image-text-container {
+    flex-direction: row;
+  }
 }
 
 .btn {
@@ -120,7 +142,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-bottom: 5rem;
+  margin: 10rem 0;
 }
 .projects__container {
   text-align: center;
@@ -171,9 +193,12 @@ body {
 
 .hero {
   text-align: center;
+  height: 95vh;
+  background-color: aquamarine;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 .hero__container {
-  padding-top: 10rem;
+  padding-top: 20rem;
 }
 * {
   font-family: "TASA Orbiter", sans-serif;
@@ -190,14 +215,22 @@ p {
   background-clip: text;
   color: transparent;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 .heading-secondary {
-  font-size: 3rem;
+  font-size: 4rem;
+  background-image: linear-gradient(to right, #1d3557, #457b9d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
 .heading-tertiary {
   font-size: 2.5rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=App.css.map */

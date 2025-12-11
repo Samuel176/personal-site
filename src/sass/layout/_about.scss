@@ -9,16 +9,20 @@
     height: 100%;
     width: 100%;
     opacity: .15;
+    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
     overflow: hidden;
+
     &__content{
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
 }
+
 .about-section{
     position: relative;
 }
+
 .about-content{
     position: relative;
     width: 100%;
@@ -28,6 +32,7 @@
     &__container{
         display: flex;
         justify-content: space-evenly;
+        margin: 0 5rem;
           
 
         &-box,
@@ -42,8 +47,39 @@
 
             &-right > .image-text-container{
                 flex-direction: row-reverse;
+
+
             }
+
+            
 
         }
     }
+
+    @media (max-width: 1480px){
+        &__container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+        
+            &-box,
+            &-box-right{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                height: 50rem;
+                border-radius: 5px;
+                margin-bottom: 10rem;
+                z-index: 5;
+
+                &-right > .image-text-container{
+                    flex-direction: row;
+
+                } 
+
+            }
+        }
+
+
+}
 }

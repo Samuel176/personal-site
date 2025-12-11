@@ -7,6 +7,7 @@ import Hero from './componants/Hero'
 import Projects from './componants/Projects'
 import Footer from './componants/Footer';
 import About from './componants/About';
+import Contact from './componants/Contact';
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
     <div className='page'>
       <Hero />
       <div className="projects-section">
-        <div className="projects">
+        <h2 className="heading-secondary margin-l">Projects</h2>
+        <div className="projects ">
+
           {projectInfo.map((p) => (
           <Projects
             key= {p.id}
@@ -31,6 +34,7 @@ function App() {
         </div>
       </div>
         <About />
+        <Contact />
       <Footer />
       
       
