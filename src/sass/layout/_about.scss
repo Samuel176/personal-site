@@ -9,7 +9,7 @@
     height: 100%;
     width: 100%;
     opacity: .15;
-    clip-path: polygon(0 0, 100% 3%, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
     overflow: hidden;
 
     &__content{
@@ -20,6 +20,7 @@
 }
 
 .about-section{
+    height: 95vh;
     position: relative;
 }
 

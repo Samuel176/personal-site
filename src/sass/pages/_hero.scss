@@ -4,7 +4,14 @@
 .hero{
     text-align: center;
     height: 95vh;
-    background-color: aquamarine;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-marine, 0.8),
+        rgba($color-off-white, 0.8)), 
+        url(../../../public/img/meRagusa.jpeg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     
     
