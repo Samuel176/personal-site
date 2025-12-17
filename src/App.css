@@ -33,6 +33,7 @@ html {
 body {
   display: block;
   background-color: #f7f7f7;
+  color: black;
 }
 
 #root {
@@ -71,47 +72,21 @@ body {
   position: relative;
 }
 
-.about-content {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 5rem;
-}
 .about-content__container {
   display: flex;
-  justify-content: space-evenly;
-  margin: 0 5rem;
-}
-.about-content__container-box, .about-content__container-box-right {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
-  height: 50rem;
-  border-radius: 5px;
-  margin-bottom: 10rem;
-  z-index: 5;
+  flex-wrap: wrap;
+  flex: 0 0 50%;
 }
-.about-content__container-box-right > .image-text-container, .about-content__container-box-right-right > .image-text-container {
-  flex-direction: row-reverse;
+
+.image-text-container {
+  background-color: white;
+  z-index: 100;
+  margin-bottom: 2.5rem;
 }
-@media (max-width: 1480px) {
-  .about-content__container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
-  .about-content__container-box, .about-content__container-box-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 50rem;
-    border-radius: 5px;
-    margin-bottom: 10rem;
-    z-index: 5;
-  }
-  .about-content__container-box-right > .image-text-container, .about-content__container-box-right-right > .image-text-container {
-    flex-direction: row;
-  }
+
+.contact {
+  text-align: center;
 }
 
 .btn {
@@ -204,6 +179,7 @@ body {
 .hero__container {
   padding-top: 20rem;
 }
+
 * {
   font-family: "TASA Orbiter", sans-serif;
 }
