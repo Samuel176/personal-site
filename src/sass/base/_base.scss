@@ -17,11 +17,14 @@ html{
 body{
     display: block;
     background-color: $color-off-white;
+    color: black;
 
 }
 #root{
     width: 100%;
 }
 .page{
-    margin: 0 3rem;
+    position: relative;
+    
+    
 }

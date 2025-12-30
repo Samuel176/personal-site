@@ -8,14 +8,15 @@ import Projects from './componants/Projects'
 import Footer from './componants/Footer';
 import About from './componants/About';
 import Contact from './componants/Contact';
+import Import from './componants/Imports';
 
 
 function App() {
-  const [count, setCount] = useState(0)
   const [project, setProject] = useState();
 
   return (
     <div className='page'>
+      <Import />
       <Hero />
       <div className="projects-section">
         <h2 className="heading-secondary margin-l">Projects</h2>
