@@ -4,6 +4,10 @@
 // }
 .projects-section{
     // background-color: $color-light-blue;
+    background-image: url(../../../public/img/concrete-wall.png);
+     background-color: $color-off-white;
+    clip-path: polygon(0px 90px, 100% 0px, 100.00% 100%, 0px 100%);
+    padding: 10rem 0;
 }
 .projects{
     width: 100%;
@@ -12,7 +16,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: flex-start;
-    margin: 10rem 0;
+    padding: 10rem 0;
    
     
     &__container{

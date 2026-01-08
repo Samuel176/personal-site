@@ -16,7 +16,7 @@ function Import(props){
         <div className="page__container">
         <Hero />
         <div className="projects-section">
-            <h2 className="heading-secondary margin-l">Projects</h2>
+            <h2 className="heading-secondary">Projects</h2>
             <div className="projects ">
                 {projectInfo.map((p) => (
                 <Projects
