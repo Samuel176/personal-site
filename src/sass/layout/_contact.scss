@@ -1,3 +1,13 @@
 @use"../abstracts/variables" as *;
 @use "../abstracts/mixins" as *;
 
+.contact{
+    text-align: center;
+    background-image: url(../../../public/img/concrete-wall.png);
+    background-color: $color-off-white;
+    padding: 10rem 0;
+}
+
+.contact::after{
+    
+}
