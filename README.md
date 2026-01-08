@@ -8,8 +8,8 @@ Currently in development — new features, styling, and projects are being added
 
 Tech Stack
 - React (with Vite or Create React App)
-- HTML / CSS / JavaScript
-- [Optional: Add frameworks you’re using, e.g. Tailwind, Framer Motion, etc.]
+- HTML / SCSS / JavaScript
+- 
 
 Goals
 - Create a responsive and modern portfolio site  
