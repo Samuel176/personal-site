@@ -45,7 +45,7 @@ body {
   margin: 0 5rem;
 }
 .page__container {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 .nav {
@@ -124,6 +124,13 @@ body {
   opacity: 0;
 }
 
+.projects-section {
+  background-image: url(../../../public/img/concrete-wall.png);
+  background-color: #f7f7f7;
+  clip-path: polygon(0px 90px, 100% 0px, 100% 100%, 0px 100%);
+  padding: 10rem 0;
+}
+
 .projects {
   width: 100%;
   display: flex;
@@ -131,7 +138,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin: 10rem 0;
+  padding: 10rem 0;
 }
 .projects__container {
   text-align: center;
@@ -163,6 +170,9 @@ body {
 }
 .hero__container {
   padding: 15rem 0;
+  background-image: url(../../../public/img/concrete-wall.png);
+  background-color: #f7f7f7;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 65vh, 0px 100%);
 }
 
 * {

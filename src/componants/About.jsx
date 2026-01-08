@@ -5,7 +5,16 @@ import imageText from "../assets/imageText"
 
 function About(props){
     return <div className="about-section">
-                       
+        
+        {/* {imageText.map((p) => (
+            <ImageBox 
+                key={p.id}
+                img={p.img}
+                text={p.text}
+                title={p.title}
+            />
+        ))} */}
+        
     </div>
 }
 
