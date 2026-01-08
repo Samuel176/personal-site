@@ -8,9 +8,6 @@ function Hero() {
                 <a href="" className="btn">View All Projects</a>
                 <div className="hero__container-info">
                     <h2 className="heading-secondary margin-m">Development | Design</h2>
-                  
-                    
-
                 </div>
             </div>
 
