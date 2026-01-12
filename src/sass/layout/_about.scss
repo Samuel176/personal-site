@@ -7,6 +7,15 @@
     background-image: url(../../../public/img/concrete-wall.png);
     background-color: $color-off-white;
     padding: 10rem 0;
+    
+
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+        
+    }
 }
 
 .about-section::after{
