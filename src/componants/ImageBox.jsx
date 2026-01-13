@@ -4,11 +4,11 @@ function ImageBox(props){
     return ( 
     <div className="image-box">
         <div className="image-text-container">
-          
-                <img className="image-text-container__image" src={props.img} alt="" />
-            
+            <div className="image-text-container__image">
+                <img className="image-text-container__image-image" src={props.img} alt="" />
+            </div>
             <div className="image-text-container__text">
-                <h3 className="heading-tertiary">{props.title}</h3>
+                <h3 className="heading-tertiary image-text-container__text-heading">{props.title}</h3>
                 <p>{props.text}</p>
             </div>
         </div>
