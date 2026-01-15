@@ -3,6 +3,7 @@ import ImageBox from "./ImageBox";
 import imageText from "../assets/imageText"
 
 
+
 function About(props){
     return <div className="about-section">
         <h2 className="heading-secondary">About</h2>
@@ -13,6 +14,9 @@ function About(props){
                 img={p.img}
                 text={p.text}
                 title={p.title}
+                imgBack={p.imgBack}
+                textBack={p.textBack}
+                titleBack={p.titleBack}
             />
         ))}
         </div>
